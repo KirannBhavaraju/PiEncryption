@@ -1,0 +1,1 @@
+matlab.exe -nodisplay -nosplash -nodesktop -r OCR;exit;
