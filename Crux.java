@@ -40,7 +40,7 @@ class CropImage
 	{
 		try{
 			System.out.println("Running Entropy Generation");
-			Process probject= Runtime.getRuntime().exec("a.exe");
+			Process probject= Runtime.getRuntime().exec("a.bat");
 			System.out.println("Entropy Generation Complete");
 			System.out.println("File Entropy.txt Created and can be used for reference");
 			int s,t;
@@ -231,7 +231,7 @@ class Crux
 		try
 		{
 			String sample="";
-			FileInputStream in=new FileInputStream("C:/Users/Kirann Bhavaraju/Desktop/Capstone/piraw.txt");
+			FileInputStream in=new FileInputStream("piraw.txt");
 			int c;
 			while((c=in.read())!= -1)
 			{
